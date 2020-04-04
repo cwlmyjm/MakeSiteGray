@@ -7,11 +7,14 @@
 激活后会加载MakeSiteGray\src\style.css。  
 style.css内容如下。
 ```
-html 
-{
-  -webkit-filter: grayscale(100%);
-  filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);
-} 
+html {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+	_filter: none;
+}
 ```
 
 ## 已知问题
