@@ -1,0 +1,5 @@
+html 
+{
+	-webkit-filter: grayscale(100%);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);
+} 
